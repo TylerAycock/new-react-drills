@@ -1,0 +1,29 @@
+form{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.input{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.input label{
+    width: 75%;
+}
+
+.input input {
+    align-self: flex-end;
+}
+
+button{
+    align-self: flex-end;
+}
+
+
+
