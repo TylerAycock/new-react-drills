@@ -1,11 +1,17 @@
-const Todo = (props) => {
-  return (
-      props.list.map(item=>{
-        return(
-        <p>{item}</p>
-        )
-      })
-  );
-};
+const ToDo = ({ list }) => {
 
-export default Todo;
+
+    return (
+        <div>
+            {list.map((chore, index) => {
+                return (
+                    <h2 key={index}>
+                        {chore}
+                    </h2>
+                )
+            })}
+        </div>
+    )
+}
+
+export default ToDo
