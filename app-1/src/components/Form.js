@@ -1,20 +1,14 @@
-import { useState } from "react";
-import './Form.css'
+import { useState } from 'react'
 
 const Form = () => {
-  const [input, setInput] = useState("");
-
-  const typeHandler = (event) => {
-    // console.log(event.target.value);
-    setInput(event.target.value);
-  };
+  const [output, setOutPut] = useState('')
 
   return (
     <div>
-      <input type="text" onChange={typeHandler} />
-      <p className="output">{input}</p>
+      <input type="text" onChange={e => { setOutPut(e.target.value) }} />
+      <h1>{output}</h1>
     </div>
-  );
-};
+  )
+}
 
-export default Form;
+export default Form 
