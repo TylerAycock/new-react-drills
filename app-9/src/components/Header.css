@@ -1,0 +1,17 @@
+.nav{
+    display: flex;
+    width: 100vw;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.active{
+    text-decoration: underline;
+
+}
+
+.inactive{
+    text-decoration: none;
+}
