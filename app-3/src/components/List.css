@@ -1,0 +1,20 @@
+
+.display{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.list{
+    display: flex;
+    flex-direction: column;
+    width: 15rem;
+    height: 20rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.food{
+    width: 2rem;
+    height: 2rem;
+}
