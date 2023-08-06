@@ -1,29 +1,22 @@
-form{
-    width: 300px;
+
+.login{
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
     gap: 10px;
+    align-items: center;
 }
 
-.input{
-    width: 100%;
-    display: flex;
-    justify-content: space-around;
+.btn{
+    width: 5rem;
+    border-radius: 5px;
+    border: none;
+    color: teal;
+    background-color: rgb(255, 255, 0);
 }
 
-.input label{
-    width: 75%;
+.btn:hover{
+    cursor: pointer;
+    background-color: rgba(255, 255, 0, 0.496);
+    border: 1px solid black;
 }
-
-.input input {
-    align-self: flex-end;
-}
-
-button{
-    align-self: flex-end;
-}
-
-
 
